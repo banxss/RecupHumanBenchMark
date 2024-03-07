@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(174,209,238);
+background: linear-gradient(90deg, rgba(174,209,238,1) 0%, rgba(8,42,171,0.7399334733893557) 100%);
+}
+
+#container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#game-container {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#simon-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.simon-tile {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#start-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#start-btn:hover {
+    background-color: #45a049;
+}
+
+#level-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#message {
+    font-size: 22px;
+}

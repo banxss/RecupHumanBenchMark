@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="recup1.css">
+</head>
+<body>
+  <div class="header">
+    <h1 class="game-title">Juego de Memoria Numérico</h1>
+    <a href="recup1.html">Probar sin jquery</a>
+  </div>
+  <div class="game-container">
+    <h2>Nivel: <span id="level">1</span></h2>
+    <div id="sequence-display"></div>
+    <div id="progress-bar-container" style="display: none;">
+      <div id="progress-bar"></div>
+    </div>
+    <div id="input-container" style="display: none;">
+      <input type="text" id="user-input" placeholder="Introduce los numeros">
+      <button id="check-btn">Comprobar</button>
+    </div>
+    <p id="result"></p>
+    <button id="restart-btn" style="display: none;">Volver a Jugar</button>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="recup1JQ.js"></script>
+</body>
+</html>

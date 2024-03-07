@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(174,209,238);
+background: linear-gradient(90deg, rgba(174,209,238,0.7035189075630253) 0%, rgba(8,42,171,0.7399334733893557) 100%);
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background: rgb(174,209,238);
+background: linear-gradient(90deg, rgba(174,209,238,0.7035189075630253) 0%, rgba(8,42,171,0.7399334733893557) 100%);
+}
+
+.game-title {
+  font-size: 32px;
+}
+
+.game-container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px; /* Ajusta el ancho máximo del contenedor del juego */
+  margin: 0 auto; /* Centra el contenedor del juego horizontalmente */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#sequence-display {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+#progress-bar-container {
+  width: 80%; /* Ajusta el ancho de la barra de carga */
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 0 auto; /* Centra la barra de carga horizontalmente */
+}
+
+#progress-bar {
+  height: 100%;
+  width: 100%;
+  background-color: #007bff;
+  animation: progressBar 2s linear;
+}
+
+@keyframes progressBar {
+  0% { width: 100%; }
+  100% { width: 0%; }
+}
+
+#input-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+a{
+
+  color: black;
+
+}
+
+a:hover {
+ color: blueviolet;
+
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+#restart-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  margin: 0 auto; /* Esto centra el botón horizontalmente */
+}
+
+#restart-btn:hover {
+  background-color: #bd2130;
+}
